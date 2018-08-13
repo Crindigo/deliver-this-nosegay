@@ -1,0 +1,91 @@
+.dtn-root {
+
+}
+
+h6 {
+    margin: 5px 0 2px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table.dtn-table {
+    margin-bottom: 0;
+    font-size: 12px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 3px;
+}
+
+table.dtn-table thead th {
+    border-bottom: none;
+}
+
+table.dtn-table th, table.dtn-table td {
+    padding: 0.2rem;
+}
+
+table.dtn-table td:first-child {
+    width: 70px;
+}
+
+table.dtn-table.dtn-inventory td:first-child {
+    width: 80%;
+}
+
+table.dtn-table.dtn-locations td:first-child {
+    width: 80%;
+}
+
+.dtn-row > .col, .dtn-row > [class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.prog {
+    float: right;
+    display:none;
+}
+
+td:hover > span.prog {
+    display: inline;
+}
+
+ul#adventure-log {
+    border: 1px solid #dee2e6;
+    list-style-type: disc;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 5px 5px 5px 25px;
+    height: 200px;
+}
+
+.progress.light {
+    position: relative;
+    background: #f5f5f5;
+}
+
+.progress .progress-bar {
+    background-color: #c9e8d0;
+}
+
+.progress .progress-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+div#questbook {
+    border: 1px solid #dee2e6;
+    font-size: 12px;
+    padding: 5px;
+    height: 300px;
+}
+
+.form-check-input {
+    margin-top: 0.2rem;
+    margin-left: -1rem;
+}
+
+.form-check-input:disabled ~ .form-check-label {
+    color: #212529;
+}
